@@ -1,0 +1,17 @@
+{
+  "name": "deriv-daily-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scanner automatisé basé sur la Routine Daily (Cadre & Filtre + Séance & Exécution) de 3C Trading Planner, pour les Indices Synthétiques Deriv (ex: Volatility 75).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "scan": "node src/scan-once.js",
+    "backtest": "node src/backtest.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "dotenv": "^16.4.5"
+  }
+}
