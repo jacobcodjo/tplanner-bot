@@ -7,7 +7,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "scan": "node src/scan-once.js",
+    "scan": "node scan-once.js",
     "backtest": "node src/backtest.js"
   },
   "dependencies": {
