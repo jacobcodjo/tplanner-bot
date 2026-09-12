@@ -14,7 +14,7 @@ import { logSetup, sendWebhookAlert, sendTelegramAlert } from './notify.js';
 
 const APP_ID = process.env.DERIV_APP_ID || '1089';
 const TOKEN = process.env.DERIV_API_TOKEN || '';
-const SYMBOLS = (process.env.SYMBOLS || 'R_10,R_25,R_50,R_75,R_100,XAUUSD,EURUSD').split(',').map(s => s.trim());
+const SYMBOLS = (process.env.SYMBOLS || 'R_10,R_25,R_50,R_75,R_100,XAUUSD,EURUSD,GBPUSD,USDJPY,USDCHF,AUDUSD,USDCAD,NZDUSD').split(',').map(s => s.trim());
 const WEBHOOK_URL = process.env.WEBHOOK_URL || '';
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || '';
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || '';
